@@ -1,0 +1,285 @@
+#col1 {
+    background-image: linear-gradient(to left top, #691264, #fd5c92);
+    min-height: 60vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    h1 {
+        font-size: 3vh;
+        color: white;
+        a {
+           color: rgb(0, 0, 0);
+           list-style: none;
+           text-decoration: none;
+           text-shadow: #ffffff 0.1vh 0.1vh;
+           border: 4px solid #3f003b;
+           border-radius: 20px;
+           padding: 10px;
+           :hover {
+               color: white;
+           }
+        }
+       }
+       p {
+           font-family: 'Nanum Myeongjo', serif;
+           color: rgb(0, 0, 0);
+           font-size: 1.7vh;
+           text-align: center;
+           margin-top: 2rem;
+       }
+
+#colinta {
+        img {
+        max-height: 30vh;
+        filter: brightness(1.1);
+        mix-blend-mode: multiply;
+        margin-top: 5vh;
+        }
+    }
+#colintb {
+    font-size: 2vh;
+    font-family: 'Righteous', cursive;
+    align-items: center;
+    }
+}
+#col2 {
+    background-image: linear-gradient(to top left, #c8cff7, #35598f);
+    min-height: 60vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    #colintc {
+        img {
+        max-height: 30vh;
+        filter: brightness(1.1);
+        mix-blend-mode: multiply;
+        margin-top: 5vh;
+        }
+    }
+    #colintd {
+        font-size: 2vh;
+        font-family: 'Righteous', cursive;
+    }
+    h1 {
+        font-size: 3vh;
+        color: rgb(0, 0, 0);
+        a {
+           color: rgb(0, 0, 0);
+           list-style: none;
+           text-decoration: none;
+           text-shadow: #ffffff 0.1vh 0.1vh;
+           border: 4px solid #000000;
+           border-radius: 20px;
+           padding: 10px;
+           :hover {
+               color: white;
+           }
+        }
+       }
+       p {
+           font-family: 'Nanum Myeongjo', serif;
+           color: rgb(7, 0, 0);
+           font-size: 1.7vh;
+           text-align: center;
+           margin-top: 2rem;
+       }
+}
+#col3 {
+    background-image: linear-gradient(to right bottom, #58f39e, #dddddd);
+    min-height: 60vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    h1 {
+        font-size: 3vh;
+        color: white;
+        a {
+           color: rgb(37, 9, 9);
+           list-style: none;
+           text-decoration: none;
+           text-shadow: #ffffff 0.1vh 0.1vh;
+           border: 4px solid #3f003b;
+           border-radius: 20px;
+           padding: 10px;
+           :hover {
+               color: white;
+           }
+        }
+       }
+       p {
+           font-family: 'Nanum Myeongjo', serif;
+           color: rgb(17, 1, 1);
+           font-size: 1.7vh;
+           text-align: center;
+           margin-top: 2rem;
+       }
+    #colinte {
+        img {
+        max-height: 30vh;
+        filter: brightness(1.1);
+        mix-blend-mode: multiply;
+        margin-top: 5vh;
+        }
+    }
+    #colintf {
+        font-size: 2vh;
+        font-family: 'Righteous', cursive;
+    }
+}
+#finaldepag {
+    margin-top: 5vh;
+    h2 {
+        font-family: 'Nanum Myeongjo', serif;
+    }
+    .btn {
+        font-size: 2vh;
+        font-weight: 800;
+        color: #ffffff;
+        background-color: #3f003b;
+        border: 10px solid #3f003b;
+        border-radius: 50px;
+    }
+}
+//Página de Contacto
+#contitulo {
+    background-color: #4e3d4d;
+    border-bottom: 5px solid #58f39e;
+    margin-bottom: 5vh;
+    h1.display-3 {
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        color: rgb(255, 255, 255);
+        font-family: 'Nanum Myeongjo', serif;
+   }
+   p {
+    color: gold;
+    margin-top: 1vh;
+   }
+}
+#form {
+    margin-top: 12vh;
+    margin-bottom: 12vh;
+    padding: 20px;
+    border: 4px double #c0c9c4;
+   .btn {
+    color: rgb(255, 255, 255);
+    font-weight: 590;
+   }
+}
+#footcontacto {
+    margin-bottom: 2vh;
+    a{
+        margin: 2vh;
+    }
+    .container-fluid {
+        margin-top: 1vh;
+    }
+}
+//Curando Memes
+#galeriadememes img {
+    width: 100%;
+    height: 20vw;
+    box-shadow: 0.2em 0.2em 0.3em #131f1f;
+    margin-top: 2vh;
+    &:hover {
+        border-top: 3px solid rgb(56, 236, 182);
+        border-left: 3px solid rgb(56, 236, 182);
+        box-shadow: 0.5em 0.5em 0.5em #3e4b4b;
+    }
+
+    col-lg-4{
+        margin: 0;
+        padding: 10vh;
+        margin-top: 2vh;
+    }
+}
+#galeriadememes h1 {
+    font-size: 2em;
+    font-weight: 500;
+    text-decoration: underline 1px;
+    margin-top: 1vh;
+}
+#galeriadememes p {
+    font-size: 1em;
+    color: #6ea384;
+    margin-top: -10px;
+}
+//Edicion de videos
+#tarjetas {
+    background-color: #8bddb0;
+    padding-bottom: 2vh;
+    margin-bottom: -4vh;
+    h1 {
+        font-size: 2em;
+        padding: 2vh;
+        text-decoration: underline 2px;
+    }
+    .card {
+        margin: 2vh;
+        box-shadow: 0.2em 0.2em 0.5em rgb(168, 168, 168);
+        &:hover{
+            box-shadow: 0.3em 0.3em 0.6em rgb(168, 168, 168);
+        }
+    }
+}
+#jumbazo {
+    margin: 5vh;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 2em;
+    h1 {
+        text-decoration: underline 1px;
+    }
+}
+// Ilustraciones
+#ilusection {
+    background-color: #badbcd;
+    padding: 10vh;
+}
+#carrusilus {
+    margin: 0 auto;
+    max-width: 100vh;
+    box-shadow: 0.2em 0.2em 1em black;
+    img {
+        max-width: 70vh;
+        margin: 0 auto;
+    }
+    #carrusprev {
+        color: black;
+        background-color: black;
+        max-width: 3vh;
+    }
+    #carrusnext {
+        color: black;
+        background-color: black;
+        max-width: 3vh;
+    }
+}
+#titilus {
+    font-weight: 500;
+    font-family: 'Nanum Myeongjo', serif;
+}
+.titop {
+    margin-top: 3vh;
+    margin-bottom: 1vh;
+}
+.tibot {
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+}
+//Montajes
+#montaje {
+    padding-top: 10vh;
+    img {
+        margin: 0 auto;
+    }
+}
+.montsection {
+    background-color: #3f003b;
+    margin-top: -4vh;
+    margin-bottom: -5vh;
+    hr {
+        color: wheat;
+    }
+}
+#titmont {
+    font-weight: 500;
+    font-family: 'Nanum Myeongjo', serif;
+    color: wheat;
+}
