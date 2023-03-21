@@ -129,6 +129,10 @@
 #finaldepag h2 {
   font-family: "Nanum Myeongjo", serif;
 }
+#finaldepag #colbutton {
+  float: none;
+  margin: 0 auto;
+}
 #finaldepag .btn {
   font-size: 2vh;
   font-weight: 800;
